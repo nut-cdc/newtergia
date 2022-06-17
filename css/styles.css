@@ -250,7 +250,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.inscriptions {
+.inscriptions, @-moz-document.inscriptions, @-moz-document url-prefix().inscriptions {
 	margin-top: 0.75rem;
 	padding: 1.25rem 1.5rem;
 	border: 1px solid #0095db;
@@ -259,7 +259,7 @@ a:hover {
 	height: 20px;
 }
 
-.inscriptions:hover {
+.inscriptions:hover, @-moz-document.inscriptions:hover, @-moz-document url-prefix().inscriptions:hover {
 	border: 1px solid rgba(0, 149, 219, 0.4);
 	background-color: rgba(0, 149, 219, 0.8);
 	color: #fff;
