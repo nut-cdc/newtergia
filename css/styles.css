@@ -250,7 +250,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.inscriptions, @-moz-document.inscriptions, @-moz-document url-prefix().inscriptions {
+/*.inscriptions, @-moz-document.inscriptions, @-moz-document url-prefix().inscriptions {
 	margin-top: 0.75rem;
 	padding: 1.25rem 1.5rem;
 	border: 1px solid #0095db;
@@ -263,7 +263,7 @@ a:hover {
 	border: 1px solid rgba(0, 149, 219, 0.4);
 	background-color: rgba(0, 149, 219, 0.8);
 	color: #fff;
-}
+}*/
 
 .btn-outline-sm {
 	display: inline-block;
@@ -283,6 +283,11 @@ a:hover {
 	background-color: #333333;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+a#inscriptions.btn-outline-lg {
+	position: relative; 
+	box-sizing: border-box;
 }
 
 .form-group {
