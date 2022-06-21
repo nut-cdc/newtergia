@@ -122,12 +122,25 @@ hr.stylised {
 	width: 100%;
 	margin: 2rem auto;
 }
-	
+
 hr.stylised:after {
 	background: #fff;
 	padding: 0 4px;
 	position: relative;
 	top: -13px;	
+}
+
+hr.party {
+	border: none;
+	border-top: 0.2rem solid #0095db;
+	width: 50%;
+	margin: 0.5rem auto;
+}
+
+p.party {
+	color:#0095db;
+	margin: 0.5rem 0;
+	font: 100 0.95rem/1.15rem "Fredoka One", sans-serif;
 }
 
 a {
@@ -150,6 +163,15 @@ a:hover {
 
 .red {
 	color: #00468e;
+}
+
+.green {
+	color: #59933E;
+}
+
+.top {
+	padding-top: 8.5px;
+	height: 50px;;
 }
 
 .blue {
@@ -747,6 +769,12 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
+#registration {
+	background-image: url("../images/feuille-droite.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position-x: right;
+}
 
 /***********************/
 /*     Description     */
@@ -793,6 +821,15 @@ input[type='checkbox'] {
 	margin-bottom: 1.25rem;
 }
 
+/**********************/
+/*     Activités     */
+/**********************/
+
+#activites {
+	background-image: url("../images/feuille-gauche.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+}
 
 /**********************/
 /*     Highlights     */
@@ -839,10 +876,10 @@ input[type='checkbox'] {
 	margin-bottom: 0;
 }
 
-img.restau {
+img.logo {
 	display: block;
  	margin: 0px auto;
-	 width: 35%;
+	/*width: 35%;*/
 }
 
 /******************/
@@ -899,6 +936,13 @@ img.restau {
 	border: none;
 	background-color: #b5bcc4;
 }
+
+/*#agenda {
+	background-image: url("../images/compo-floral.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}*/
 
 #agenda.basic-1.bg-gray {
 	padding-bottom: 0;
