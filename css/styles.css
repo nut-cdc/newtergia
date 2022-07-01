@@ -180,6 +180,10 @@ a:hover {
 	font-size: 1.125rem;
 }
 
+.cyan {
+	color:#0095db;
+}
+
 .ergypurcol {
 	color: #95C11F;
 }
@@ -310,6 +314,7 @@ a:hover {
 a#inscriptions.btn-outline-lg {
 	position: relative; 
 	box-sizing: border-box;
+	top: -30px;
 }
 
 .form-group {
@@ -769,11 +774,31 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
+#registration p {
+	margin-right: 2rem;
+}
+
+#registration p.center {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2rem;;
+}
+
 #registration {
 	background-image: url("../images/feuille-droite.png");
 	background-repeat: no-repeat;
 	background-size: 30%;
 	background-position-x: right;
+}
+
+#registration li {
+	margin: auto 1.5rem;
+}
+
+#registration .img-fluid.entry {
+	width: 80%;
+	display: block;
+	margin: 0.75rem auto;
 }
 
 /***********************/
@@ -849,7 +874,7 @@ input[type='checkbox'] {
 .cards-1 .card-image {
 	position: relative;
 	width: /*11*/ 15rem;
-	height: /*11*/ 15rem;*/
+	height: /*11*/ 15rem;
 	width: 15rem;
 	margin-right: auto;
 	margin-bottom: 2rem;
@@ -1286,6 +1311,10 @@ a:hover.back-to-top {
 		width: 40rem;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	h4 {
+		margin-top: 3rem;
 	}
 	/* end of general styles */
 
