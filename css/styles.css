@@ -970,6 +970,10 @@ img.logo {
 	background-size: 100%;
 }*/
 
+#agenda h2 {
+	margin-top: 5rem;;
+}
+
 #agenda.basic-1.bg-gray {
 	padding-bottom: 0;
 }
