@@ -49,6 +49,16 @@ p, span.programme {
 	margin-bottom: 0.5rem;
 }
 
+span.blue {
+	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	color: #0095db;
+}
+
+span.dark-blue {
+	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	color: #00468e;
+}
+
 h1 {
 	color: #333333;
 	/*font: italic 700 2.75rem/3.25rem "Sansita", sans-serif;*/
@@ -976,6 +986,46 @@ img.logo {
 
 #agenda.basic-1.bg-gray {
 	padding-bottom: 0;
+}
+
+/**********************/
+/*     Activités     */
+/**********************/
+
+/*#activites {
+	background-image: url("../images/feuille-gauche.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+}*/
+
+#activites .cards-1 {
+	width: 80%;
+	margin: 0rem auto;
+}
+
+/*#activites .cards-1 p {
+	margin-top: 1rem;
+}*/
+
+#activites .cards-1 p.right, span.right {
+	text-align: right;
+}
+
+#activites .cards-1 p.center, span.center {
+	text-align: center;
+}
+
+#activites .cards-1 p.left, span.left {
+	text-align: left;
+}
+
+#activites p.top {
+	margin-top: -0.2rem;
+	padding: 0;
+}
+
+#activites p.special {
+	margin-top: 3rem;
 }
 
 /********************/
