@@ -245,7 +245,7 @@ a:hover {
 	background-color: #00468e;
 	color: #ffffff;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 01rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -285,7 +285,7 @@ a:hover {
 	background-color: transparent;
 	color: #333333;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
