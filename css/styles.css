@@ -775,7 +775,7 @@ input[type='checkbox'] {
 /*     Registration     */
 /************************/
 .form-1 {
-	padding-top: 7rem; 
+	padding-top: 3rem; 
 }
 
 .form-1 .text-container {
@@ -877,6 +877,7 @@ input[type='checkbox'] {
 	background-image: url("../images/olivier-3.png");
 	background-repeat: no-repeat;
 	background-size: 20%;
+	margin-top: 3rem;
 }
 
 /**********************/
