@@ -40,9 +40,10 @@ html {
 	height: 100%;
 }
 
-body, p, span.programme {
+body, p, a, span.programme {
 	color: #555555; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	/*font: 400 1rem/1.625rem "Open Sans", sans-serif;*/
+	font: 400 1rem/1.625rem "Century Gothic", sans-serif;
 }
 
 p, span.programme {
@@ -50,48 +51,57 @@ p, span.programme {
 }
 
 span.blue {
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 700 2rem/2.5rem "Century Gothic", sans-serif;
 	color: #0095db;
 }
 
 span.dark-blue {
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 700 2rem/2.5rem "Century Gothic", sans-serif;
 	color: #00468e;
 }
 
 h1 {
 	color: #333333;
 	/*font: italic 700 2.75rem/3.25rem "Sansita", sans-serif;*/
-	font: 400 2.25rem/2.75rem "Fredoka One", cursive;
+	/*font: 400 2.25rem/2.75rem "Fredoka One", cursive;*/
+	font: 400 2.25rem/2.75rem "Tomarik Display Line", sans-serif;
 }
 
 h2 {
 	color: #333333;
 	/*font: italic 700 2.25rem/2.75rem "Sansita", sans-serif;*/
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 400 2.5rem/2.5rem "Tomarik Display Line", sans-serif;
 }
 
 h3 {
 	color: #333333;
 	/*font: italic 700 1.875rem/2.25rem "Sansita", sans-serif;*/
-	font: 400 1.75rem/1.5rem "Fredoka One", sans-serif;
+	/*font: 400 1.75rem/1.5rem "Fredoka One", sans-serif;*/
+	font: 400 1.75rem/1.5rem "Tomarik Display", sans-serif;
 }
 
 h4 {
 	color: #333333;
 	/*font: italic 700 1.625rem/2rem "Sansita", sans-serif;*/
-	font: 400 1.25rem/1.25rem "Fredoka One", sans-serif;
+	/*font: 400 1.25rem/1.25rem "Fredoka One", sans-serif;*/
+	font: 400 1.25rem/1.25rem "Tomarik Display", sans-serif;
+	margin: 2rem auto 1.5rem auto;
 }
 
 h5 {
 	color: #333333;
 	/*font: italic 700 1.375rem/1.625rem "Sansita", sans-serif;*/
-	font: 400 1rem/1.5rem "Fredoka One", sans-serif;
+	/*font: 400 1rem/1.5rem "Fredoka One", sans-serif;*/
+	font: 400 1rem/1.5rem "Tomarik Display", sans-serif;
 }
 
 h6 {
 	color: #333333;
-	font: italic 700 1.125rem/1.375rem "Sansita", sans-serif;
+	/*font: italic 700 1.125rem/1.375rem "Sansita", sans-serif;*/
+	font: 700 1.125rem/1.375rem "Tomarik Display", sans-serif;
 }
 
 .p-large {
@@ -186,8 +196,9 @@ a:hover {
 
 .blue {
 	color: #00468e;
-	font-weight: 700;
-	font-size: 1.125rem;
+	font-weight: 400;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 .cyan {
@@ -226,7 +237,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.btn-solid-lg {
+.btn-solid-lg, .cards-1 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.625rem 2.75rem 1.625rem 2.75rem;
 	border: 1px solid #00468e;
@@ -795,9 +806,10 @@ input[type='checkbox'] {
 }
 
 #registration {
-	background-image: url("../images/feuille-droite.png");
+	/*background-image: url("../images/feuille-droite.png");*/
+	background-image: url("../images/olivier-1.png");
 	background-repeat: no-repeat;
-	background-size: 30%;
+	background-size: /*30%*/12%;
 	background-position-x: right;
 }
 
@@ -862,9 +874,9 @@ input[type='checkbox'] {
 /**********************/
 
 #activites {
-	background-image: url("../images/feuille-gauche.png");
+	background-image: url("../images/olivier-3.png");
 	background-repeat: no-repeat;
-	background-size: 30%;
+	background-size: 20%;
 }
 
 /**********************/
@@ -922,7 +934,7 @@ img.logo {
 /*     Agenda     */
 /******************/
 .basic-1 {
-	padding-top: 7.75rem;
+	/*padding-top: 7.75rem;*/
 	padding-bottom: 0rem;
 }
 
@@ -981,11 +993,28 @@ img.logo {
 }*/
 
 #agenda h2 {
-	margin-top: 5rem;;
+	margin-bottom: 2rem;;
 }
 
 #agenda.basic-1.bg-gray {
 	padding-bottom: 0;
+}
+
+.cell {
+	height: 110px;
+	display : flex;
+ 	align-items: center;
+	flex-direction: column;
+}
+
+.cell-element {
+	padding-top: 0.75rem;
+	flex-grow: 0;
+}
+
+.cell-element:nth-of-type(2) {
+	position: relative;
+	bottom: 0.5rem;
 }
 
 /**********************/
@@ -1141,6 +1170,23 @@ img.logo {
 
 .cards-2 .fa-stack:hover .fa-stack-1x {
 	color: #00468e;
+}
+
+/*************************/
+/*     Week-end     */
+/*************************/
+
+#week-end p.center {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2rem;;
+}
+
+#week-end .img-fluid.entry {
+	width: 45%;
+	display: block;
+	float: left; 
+	margin: 1rem 0.5rem 0 3%;
 }
 
 /******************/
@@ -1470,16 +1516,15 @@ a:hover.back-to-top {
 	
 	.basic-1 .keynote-details {
 		display: inline-block;
-		width: 80%;
+		/*width: 80%;*/
 	}
 	
-
-	.basic-1 .keynote-time {
+	/*.basic-1 .keynote-time {
 		display: inline-block;
 		width: 19%;
 		text-align: right;
 		vertical-align: top;
-	}
+	}*/
 	
 	.basic-1 .keynote-divider {
 		margin: 2.125rem auto 3rem auto;
@@ -1612,9 +1657,9 @@ a:hover.back-to-top {
 		margin-left: 1.5rem;
 	}
 
-	.basic-1 .keynote-details {
+	/*.basic-1 .keynote-details {
 		width: 85%;
-	}
+	}*/
 	
 	.basic-1 .keynote-time {
 		width: 14%;
