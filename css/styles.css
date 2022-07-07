@@ -935,6 +935,7 @@ img.logo {
 /******************/
 .basic-1 {
 	/*padding-top: 7.75rem;*/
+	padding-top: 1rem;
 	padding-bottom: 0rem;
 }
 
@@ -993,7 +994,8 @@ img.logo {
 }*/
 
 #agenda h2 {
-	margin-bottom: 2rem;;
+	margin-bottom: 2rem;
+	margin-top: 5rem;
 }
 
 #agenda.basic-1.bg-gray {
